@@ -34,13 +34,25 @@ p
 	margin-left: 20px;
 }
 
-.Certificate
+.Certificate 
 {
 	margin-left: 20px;
 }
 
 .rounded
 {
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
+}
+
+.Hobbies
+{
+	margin-left: 20px;
+}
+
+
+.card-img-top
+{
+	height: 180px;
+	width: 318px;
 }
