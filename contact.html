@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Le Vu Hoang</title>
+
+
+	<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+<!-- custom CSS -->
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+<!-- Mobile Display -->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Contact Send Email -->
+ <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+ <!-- Social Sidebar -->
+
+</head>
+
+
+<body>
+<!-- NAVEBAR -->
+		<nav class="nav nav-pills flex-column flex-sm-row">
+  			<a class="flex-sm-fill text-sm-center nav-link" href="index.html">About me</a>
+  			<a class="flex-sm-fill text-sm-center nav-link" href="porfolio.html">Porfolio</a>
+  			<a class="flex-sm-fill text-sm-center nav-link" href="contact.html">Contact Me</a>
+		</nav>
+<!-- NAVEBAR -->
+
+<!-- JUMBOTRON -->
+
+		<div class="jumbotron jumbotron-fluid">
+  					<div class="container">
+    					<h1 class="display-3">We have Chance to Co-operate</h1>
+   						 <p class="lead">Contact me as below.</p>
+  					</div>
+		</div>
+
+<!-- JUMBOTRON -->
+
+<!-- Row for Contact & Social Sidebar -->
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-7">
+					
+					<!-- Contact -->
+					<form id="contact-form" method="post" action="contact.php" role="form">
+
+    					<div class="messages"></div>
+
+    						<div class="controls">
+
+        						<div class="row">
+            						<div class="col-md-6">
+                						<div class="form-group">
+                   							 <label for="form_name">Firstname *</label>
+                    						<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    							<div class="help-block with-errors"></div>
+                						</div>
+            						</div>
+
+            						<div class="col-md-6">
+                						<div class="form-group">
+                    						<label for="form_lastname">Lastname *</label>
+                   							<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                   						 	<div class="help-block with-errors"></div>
+               							</div>
+            						</div>
+        						</div>
+
+       						 	<div class="row">
+           	 						<div class="col-md-6">
+                						<div class="form-group">
+                    						<label for="form_email">Email *</label>
+                    						<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    						<div class="help-block with-errors"></div>
+                						</div>
+            						</div>
+
+            					<div class="col-md-6">
+                					<div class="form-group">
+                    					<label for="form_phone">Phone</label>
+                    					<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                    					<div class="help-block with-errors"></div>
+                					</div>
+            					</div>
+        					</div>
+
+        					<div class="row">
+            					<div class="col-md-12">
+                					<div class="form-group">
+                    					<label for="form_message">Message *</label>
+                    					<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    					<div class="help-block with-errors"></div>
+                					</div>
+            					</div>
+
+            					<div class="col-md-12">
+                					<input type="submit" class="btn btn-success btn-send" value="Send message">
+            					</div>
+        					</div>
+            
+    					</div>
+
+					</form>
+					<!-- Contact End -->
+				</div>
+
+				<div class="col-xs-12 col-xs-4">
+
+
+
+
+
+					
+				</div>
+				
+
+			</div>
+
+
+		</div>
+
+
+</body>
+</html>
