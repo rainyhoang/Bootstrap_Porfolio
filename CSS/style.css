@@ -72,3 +72,38 @@ p
 	background-color: blue;
 }
 
+.stack
+
+{
+	height: 70px;
+	width: 70px;
+	margin-left: 35px;
+
+}
+
+.linkedin
+
+{
+	height: 70px;
+	width: 70px;
+	margin-left: 15px;
+
+}
+
+.facebook
+{
+	height: 70px;
+	width: 70px;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+
+.twitter
+{
+	height: 70px;
+	width: 70px;
+	margin-top: 20px;
+	margin-left: 15px;
+
+
+}
